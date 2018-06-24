@@ -20,7 +20,7 @@ function init() {
       index += 1;
       if (index === codes.length) {
         alert("Congratulations!");
-        index = 0
+        index = 0;
       }
     } else {
       index = 0;
