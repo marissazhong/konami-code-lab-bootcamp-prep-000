@@ -26,5 +26,3 @@ function init() {
     }
   })
 }
-
-//init();
