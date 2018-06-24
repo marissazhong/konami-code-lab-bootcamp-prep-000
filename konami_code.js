@@ -16,6 +16,7 @@ function init() {
   function onKeyDownHandler(e) {
     const key = e.key;
     if (key === codes[index]) {
+      console.log("yes");
       index += 1;
       if (index === codes.length) {
         alert("Congratulations!");
